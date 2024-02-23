@@ -10,4 +10,4 @@
  * take a parameter like builder and chain it through addCase 
  * there are three cases pending , fulfiled and rejected 
  * thunk will have parameters in an object like {email, password , name , ......}
- * 
+   
