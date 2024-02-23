@@ -1,8 +1,13 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1>Task Manager App by redux</h1>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ * first of all make a slice as before 
+ * then createAsyncThunk and export it 
+ * in that thunk call the create user from firebase 
+ * then return it as an object
+ * then connect it to the slice as extraReducer 
+ * take a parameter like builder and chain it through addCase 
+ * there are three cases pending , fulfiled and rejected 
+ * thunk will have parameters in an object like {email, password , name , ......}
+ * 
